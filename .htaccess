@@ -1,0 +1,5 @@
+RewriteEngine On
+SetEnvIf Request_URI ".*" WpCommentDeny
+AddType image/svg+xml .svg .svgz
+AddType video/mp4 .mp4
+AddEncoding gzip .svgz
